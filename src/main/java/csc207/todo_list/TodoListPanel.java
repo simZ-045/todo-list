@@ -141,7 +141,9 @@ public class TodoListPanel extends JPanel implements ActionListener {
             throw new RuntimeException(e);
         }
     }
-
+    /*
+    Marks to do items as done (toggle)
+     */
     private void toggleDone(JList<String> textList) {
         int selectedIndex = textList.getSelectedIndex();
 
